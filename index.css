@@ -1,0 +1,1140 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+}
+html {
+  scroll-behavior: smooth;
+}
+
+.background-video {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  z-index: -1;
+}
+
+.background-video video {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  transform: translate(-50%, -50%);
+  background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9));
+}
+
+header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  padding: 10px 0;
+  z-index: 1000;
+  transition: top 0.3s ease;
+}
+header.header-1 {
+  background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),
+    url(src/ZIGZADimg.jpg);
+  height: 6vh;
+  display: flex;
+  align-items: center;
+}
+header.header-2 {
+  background: black;
+  width: 100%;
+  height: 13vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 0;
+}
+.header2-child {
+  display: flex;
+  justify-content: space-around;
+  gap: 12cm;
+  align-items: center;
+}
+.header2-child img {
+  width: 19vw;
+  height: 8vh;
+}
+
+.header2-anchor {
+  display: flex;
+  align-items: center;
+  gap: 10vh;
+}
+
+.home a {
+  text-decoration: none;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: orangsssssered;
+  font-size: 0.6cm;
+  font-weight: 500;
+  color: orangered;
+}
+
+.about-hover a {
+  text-decoration: none;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 0.6cm;
+  font-weight: 500;
+  color: white;
+}
+.about-hover :hover {
+  color: orangered;
+}
+
+.Ticket a {
+  text-decoration: none;
+  background: orangered;
+  border: 0;
+  border-radius: 30px;
+  color: white;
+  width: 8.5vw;
+  height: 9.5vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 700;
+}
+
+.good-men {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  height: 60vh;
+  font-family: sans-serif;
+  align-items: center;
+  justify-content: center;
+}
+.content-nav {
+  display: flex;
+  justify-content: space-around;
+  gap: 12cm;
+  align-items: center;
+  margin-top: 5%;
+}
+
+.second-nav {
+  display: flex;
+  align-items: center;
+  gap: 10vh;
+}
+
+.content-nav img {
+  width: 19vw;
+  height: 7vh;
+}
+
+.strong-afro {
+  font-size: 4em;
+  font-weight: 900;
+}
+.div-uls {
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-right: 90px;
+  padding-bottom: 40px;
+  padding-left: 40px;
+  justify-content: space-between;
+}
+
+.twentyfour {
+  display: flex;
+  align-items: center;
+  font-family: sans-serif;
+  gap: 2vh;
+}
+
+.twentyfour i {
+  font-weight: 700;
+  font-size: 1.6em;
+}
+.ul-kingdom {
+  display: flex;
+  font-family: sans-serif;
+  align-items: center;
+  gap: 2vh;
+}
+.ul-kingdom strong {
+  font-weight: 700;
+  font-size: 1.6em;
+}
+
+.ul-kingdom i {
+  font-size: 1.6em;
+}
+
+.ul-icons {
+  display: flex;
+  gap: 2vh;
+  align-items: center;
+  color: white;
+}
+.ul-icons b {
+  font-family: sans-serif;
+}
+
+.facebook a {
+  text-decoration: none;
+  color: white;
+  background: orangered;
+  border-radius: 50%;
+  width: 2.9vw;
+  height: 2.9vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.twitter a {
+  text-decoration: none;
+  color: white;
+  background: orangered;
+  border-radius: 50%;
+  width: 2.9vw;
+  height: 2.9vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.instagram a {
+  text-decoration: none;
+  color: white;
+  background: orangered;
+  border-radius: 50%;
+  width: 2.9vw;
+  height: 2.9vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.whatsapp a {
+  text-decoration: none;
+  color: white;
+  background: orangered;
+  border-radius: 50%;
+  width: 2.9vw;
+  height: 2.9vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.background-about {
+  width: 100%;
+  height: 120vh;
+  background: linear-gradient(rgba(200, 77, 16, 0.6), rgba(0, 0, 0, 0.9)),
+    url(src/people-2591959_640.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.div-about {
+  display: flex;
+  width: 100%;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  gap: 10vh;
+  color: white;
+}
+
+.strong-fewmen {
+  color: gainsboro;
+  font-family: sans-serif;
+  display: flex;
+  flex-direction: column;
+  font-size: large;
+}
+
+.h1-strong {
+  color: white;
+  font-weight: 800;
+  font-size: 2.3em;
+}
+
+.span-strong {
+  font-weight: 100;
+  font-size: 3.3vh;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.h3-strong {
+  color: white;
+  font-size: larger;
+}
+
+.span2-strong {
+  font-weight: 100;
+}
+
+.h3-2strong {
+  color: white;
+  font-size: x-large;
+  font-family: sans-serif;
+  font-weight: 600;
+}
+
+.spanevent-strong {
+  font-weight: 100;
+}
+
+.header-content {
+  display: flex;
+  gap: 2vh;
+  padding-left: 10%;
+  align-items: center;
+}
+.header-content strong {
+  color: white;
+  font-family: sans-serif;
+}
+.header-content i {
+  color: red;
+}
+/* Hide the content when the header is hidden */
+.header-2.hide-content .header-content {
+  display: none;
+}
+.content {
+  position: relative;
+  z-index: 1;
+  margin-top: 15px;
+}
+
+.hover :hover {
+  background: rgb(243, 174, 47);
+  border-radius: 50%;
+  width: 2.9vw;
+  height: 2.9vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  animation: load 2.5s ease infinite;
+}
+
+@keyframes load {
+  from {
+    transform: rotate(0turn);
+  }
+  to {
+    transform: rotate(1turn);
+  }
+}
+.image {
+  display: flex;
+  align-items: center;
+  gap: 12vh;
+}
+.image img {
+  border-radius: 15px;
+  width: 26vw;
+  height: 73vh;
+}
+
+.imghover:hover + .hide {
+  visibility: visible;
+}
+
+.hide {
+  visibility: hidden;
+  scroll-behavior: smooth;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.8);
+  background-color: black;
+  color: white;
+  font-size: larger;
+  position: absolute;
+  padding: 30px;
+  border-radius: 20px;
+  margin-top: 4.8%;
+  margin-left: 2%;
+  padding: 30px;
+  width: 18vw;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.hide span {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: larger;
+  font-weight: lighter;
+  color: orangered;
+}
+
+.imghovring:hover + .hidden {
+  visibility: visible;
+}
+
+.hidden {
+  visibility: hidden;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.8);
+  background-color: black;
+  color: white;
+  font-size: larger;
+  position: absolute;
+  padding: 30px;
+  border-radius: 20px;
+  margin-bottom: 2%;
+  margin-left: 33.2%;
+  width: 19vw;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.hidden span {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: larger;
+  font-weight: lighter;
+  color: orangered;
+}
+.height {
+  background-color: white;
+  height: 14vh;
+}
+
+.event-nav {
+  width: 100%;
+  height: 130vh;
+  background: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.event-nav-h1 {
+  font-weight: 700;
+  font-size: 3em;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.event-nav-span {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: x-large;
+  color: rgb(106, 103, 103);
+  height: 15vh;
+}
+
+.footer {
+  background: orangered;
+  padding-left: 5%;
+  padding-right: 5%;
+  height: 19vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer-divH1 {
+  font-weight: 900;
+  font-size: x-large;
+  color: white;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.footer-2 {
+  width: 100%;
+  height: 70vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: black;
+}
+
+.footer-2-div1 {
+  width: 90%;
+  font-size: larger;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  height: 70vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.div-Link h2 {
+  color: goldenrod;
+}
+
+.span-homeabout {
+  display: flex;
+  align-items: center;
+  font-size: larger;
+  gap: 2vh;
+}
+
+.home-top a {
+  text-decoration: none;
+  color: white;
+}
+.about-top a {
+  text-decoration: none;
+  color: white;
+}
+
+.Location-div {
+  display: flex;
+  gap: 12vh;
+  align-items: center;
+}
+
+.Location-divspanH1 h1 {
+  color: goldenrod;
+}
+
+.Location-span {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  gap: 2vh;
+  font-size: 1.3em;
+  font-weight: 100;
+  font-size: 1em;
+  font-weight: 100;
+  text-decoration: none;
+}
+.Location1-a {
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-decoration: none;
+}
+
+.Location2-a {
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 1em;
+  font-weight: 100;
+  text-decoration: none;
+}
+
+.JUNCTION-Div h1 {
+  color: goldenrod;
+  font-weight: 900;
+  font-size: 1.7em;
+}
+
+.JUNCTION-Div span {
+  color: white;
+  font-size: large;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.div-copyright {
+  width: 100%;
+  height: 40vh;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  border-top: 1px solid gainsboro;
+  display: flex;
+  align-items: center;
+  gap: 15vh;
+}
+
+.div-copyright h4 {
+  color: white;
+  font-weight: 100;
+  font-size: 1.3em;
+  padding-left: 5.3%;
+}
+
+.span-hrefObedTech {
+  display: flex;
+  align-items: center;
+}
+
+.span-hrefObedTech b {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 600;
+}
+
+.obedtech-div {
+  display: flex;
+  align-items: center;
+  gap: 2.5vh;
+}
+
+.obedtech-div h3 {
+  color: goldenrod;
+  font-size: 1.5em;
+  font-weight: 100;
+}
+
+.obedtech-div a {
+  color: goldenrod;
+  font-size: 1.5em;
+  font-weight: 100;
+  text-decoration: none;
+}
+
+.link-image img {
+  margin-bottom: 2cm;
+  width: 40vw;
+  height: 60vh;
+}
+
+@media screen and (max-width: 450px) {
+  header.header-2 {
+    background: black;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 0;
+    width: 100%;
+    padding-right: 40px;
+    padding-left: 20px;
+  }
+  .header2-child {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1cm;
+  }
+  .header2-child img {
+    width: 25vw;
+    height: 5vh;
+  }
+
+  .header2-anchor {
+    display: flex;
+    align-items: center;
+    gap: 4vh;
+  }
+
+  .home a {
+    text-decoration: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS',
+      sans-serif;
+    color: orangsssssered;
+    font-size: 0.4cm;
+    font-weight: 500;
+    color: orangered;
+  }
+
+  .about-hover a {
+    text-decoration: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS',
+      sans-serif;
+    font-size: 0.4cm;
+    font-weight: 500;
+    color: white;
+  }
+  .about-hover :hover {
+    color: orangered;
+  }
+
+  .Ticket a {
+    text-decoration: none;
+    background: orangered;
+    border: 0;
+    border-radius: 30px;
+    color: white;
+    width: 20vw;
+    height: 7vh;
+    display: flex;
+    margin-right: 20px;
+    font-size: x-small;
+    align-items: center;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+  }
+
+  .good-men {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    height: 40vh;
+    font-family: sans-serif;
+    align-items: center;
+    justify-content: center;
+  }
+  .content-nav {
+    display: flex;
+    justify-content: space-around;
+    gap: 0;
+    align-items: center;
+    margin-top: 2cm;
+    margin-left: 20px;
+  }
+
+  .content-nav img {
+    width: 25vw;
+    height: 6vh;
+  }
+
+  .second-nav {
+    display: flex;
+    align-items: center;
+    gap: 4vh;
+  }
+
+  .strong-afro {
+    font-size: 2.7em;
+    font-weight: 900;
+  }
+
+  .div-uls {
+    color: white;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .twentyfour {
+    display: flex;
+    align-items: center;
+    font-family: 'Courier New', Courier, monospace;
+  }
+  .twentyfour strong {
+    font-size: 3.5vh;
+  }
+
+  .twentyfour i {
+    font-size: 1.7em;
+  }
+  .ul-kingdom {
+    display: flex;
+    font-family: 'Courier New', Courier, monospace;
+    align-items: center;
+    padding-left: 50px;
+  }
+
+  .ul-kingdom strong {
+    font-weight: 700;
+    font-size: 1.3em;
+    width: 80vw;
+  }
+
+  .ul-kingdom i {
+    font-size: 2.4em;
+  }
+
+  .ul-icons {
+    display: flex;
+    gap: 3vh;
+    align-items: center;
+    color: white;
+  }
+  .ul-icons b {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.6em;
+  }
+
+  .facebook a {
+    text-decoration: none;
+    color: white;
+    background: orangered;
+    border-radius: 50%;
+    width: 9vw;
+    height: 9vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .twitter a {
+    text-decoration: none;
+    color: white;
+    background: orangered;
+    border-radius: 50%;
+    width: 9vw;
+    height: 9vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .instagram a {
+    text-decoration: none;
+    color: white;
+    background: orangered;
+    border-radius: 50%;
+    width: 9vw;
+    height: 9vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .whatsapp a {
+    text-decoration: none;
+    color: white;
+    background: orangered;
+    border-radius: 50%;
+    width: 9vw;
+    height: 9vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .background-about {
+    width: 100%;
+    height: 120vh;
+    background: linear-gradient(rgba(200, 77, 16, 0.6), rgba(0, 0, 0, 0.9)),
+      url(src/people-2591959_640.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .div-about {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 130vh;
+    justify-content: center;
+    align-items: center;
+    gap: 7vh;
+    color: white;
+  }
+
+  .strong-fewmen {
+    color: gainsboro;
+    font-family: sans-serif;
+    display: flex;
+  }
+
+  .h1-strong {
+    color: white;
+    font-weight: 800;
+    font-size: 1.5em;
+  }
+
+  .span-strong {
+    font-weight: 100;
+    font-size: 1.5vh;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS',
+      sans-serif;
+  }
+
+  .h3-strong {
+    color: white;
+    font-size: 2.7vh;
+    font-weight: 900;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+  }
+
+  .span2-strong {
+    font-weight: 100;
+    font-size: 1.5vh;
+  }
+
+  .h3-2strong {
+    color: white;
+    font-size: 2.7vh;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 900;
+    color: white;
+  }
+
+  .spanevent-strong {
+    font-weight: 100;
+    font-size: 2vh;
+  }
+
+  .header-content {
+    display: flex;
+    gap: 2vh;
+    padding-left: 10%;
+    align-items: center;
+  }
+  .header-content strong {
+    color: white;
+    font-family: sans-serif;
+  }
+  .header-content i {
+    color: red;
+  }
+  /* Hide the content when the header is hidden */
+  .header-2.hide-content .header-content {
+    display: none;
+  }
+  .content {
+    position: relative;
+    z-index: 1;
+    margin-top: 15px;
+  }
+
+  .hover :hover {
+    background: rgb(243, 174, 47);
+    border-radius: 50%;
+    width: 2.9vw;
+    height: 2.9vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    animation: load 2.5s ease infinite;
+  }
+
+  @keyframes load {
+    from {
+      transform: rotate(0turn);
+    }
+    to {
+      transform: rotate(1turn);
+    }
+  }
+  .image {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 7vh;
+  }
+  .image img {
+    border-radius: 15px;
+    width: 95vw;
+    height: 50vh;
+  }
+
+  .imghover:hover + .hide {
+    visibility: visible;
+  }
+
+  .hide {
+    visibility: hidden;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.8);
+    background-color: black;
+    color: white;
+    font-size: larger;
+    position: absolute;
+    padding: 30px;
+    border-radius: 20px;
+    margin-top: 3.4cm;
+    margin-left: 2%;
+    width: 70vw;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS',
+      sans-serif;
+  }
+  .hide span {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS',
+      sans-serif;
+    font-size: larger;
+    font-weight: lighter;
+    color: orangered;
+  }
+
+  .imghovring:hover + .hidden {
+    visibility: visible;
+  }
+
+  .hidden {
+    visibility: hidden;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.8);
+    background-color: black;
+    color: white;
+    font-size: larger;
+    position: absolute;
+    padding: 30px;
+    border-radius: 20px;
+    margin-right: 34%;
+    margin-top: 14cm;
+    width: 70vw;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS',
+      sans-serif;
+  }
+  .hidden span {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS',
+      sans-serif;
+    font-size: larger;
+    font-weight: lighter;
+    color: orangered;
+  }
+  .height {
+    background-color: rgb(20, 1, 1);
+    height: 10vh;
+  }
+
+  .event-nav {
+    width: 100%;
+    height: 160vh;
+    background: rgb(20, 1, 1);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .event-nav-h1 {
+    font-weight: 500;
+    font-size: 3em;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS',
+      sans-serif;
+  }
+  .event-nav-span {
+    font-family: Verdana, Geneva, Tahoma, sans-serif, sans-serif;
+    font-size: 2.6vh;
+    text-align: center;
+    padding: 12px;
+    color: orangered;
+    padding-bottom: 40px;
+  }
+
+  .footer {
+    background: orangered;
+    padding-left: 5%;
+    padding-right: 5%;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .footer-divH1 h1 {
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.5vh;
+  }
+
+  .footer-2 {
+    width: 100%;
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: black;
+  }
+
+  .footer-2-div1 {
+    width: 90%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS',
+      sans-serif;
+    height: 20vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .div-Link h2 {
+    color: goldenrod;
+    font-size: 1vh;
+  }
+
+  .span-homeabout {
+    display: flex;
+    align-items: center;
+    font-size: 1vh;
+    gap: 2vh;
+  }
+
+  .home-top a {
+    text-decoration: none;
+    color: white;
+  }
+  .about-top a {
+    text-decoration: none;
+    color: white;
+  }
+
+  .Location-div {
+    display: flex;
+    gap: 2vh;
+    align-items: center;
+  }
+
+  .Location-divspanH1 h1 {
+    font-size: 1vh;
+    color: goldenrod;
+  }
+
+  .Location-span {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 2vh;
+    text-decoration: none;
+  }
+  .Location1-a {
+    font-size: 1vh;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+  }
+
+  .Location2-a {
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1vh;
+    font-weight: 100;
+    text-decoration: none;
+  }
+
+  .JUNCTION-Div h1 {
+    color: goldenrod;
+    font-weight: 100;
+    font-size: 1vh;
+  }
+
+  .JUNCTION-Div span {
+    color: white;
+    font-size: 1vh;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+
+  .div-copyright {
+    width: 100%;
+    height: 10vh;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS',
+      sans-serif;
+    border-top: 1px solid gainsboro;
+    display: flex;
+    align-items: center;
+    gap: 15vh;
+  }
+
+  .div-copyright h4 {
+    color: white;
+    font-weight: 100;
+    font-size: 1vh;
+    padding-left: 5.3%;
+  }
+
+  .span-hrefObedTech {
+    display: flex;
+    align-items: center;
+  }
+
+  .span-hrefObedTech b {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 100;
+    font-size: 1vh;
+    color: white;
+  }
+
+  .obedtech-div {
+    display: flex;
+    align-items: center;
+    gap: 2.5vh;
+  }
+
+  .obedtech-div h3 {
+    color: goldenrod;
+    font-size: 1vh;
+    font-weight: 100;
+  }
+
+  .obedtech-div a {
+    color: goldenrod;
+    font-size: 1vh;
+    font-weight: 100;
+    text-decoration: none;
+  }
+
+  .link-image img {
+    margin-bottom: 2cm;
+    width: 95vw;
+    border-radius: 15px;
+    height: 50vh;
+  }
+}
