@@ -9,7 +9,7 @@ window.addEventListener('scroll', function () {
     header2.style.top = '0' // Show the second header
     header2.classList.remove('hide-content') // Show the content
   } else {
-    header2.style.top = '-20vh' // Hide the second header
+    header2.style.top = '-22vh' // Hide the second header
     header2.classList.add('hide-content') // Hide the content
   }
 
