@@ -1,17 +1,13 @@
-var prevScrollPos = window.pageYOffset
-var header1Height = document.querySelector('.header-1').offsetHeight
-var header2 = document.querySelector('.header-2')
-
 window.addEventListener('scroll', function () {
-  var currentScrollPos = window.pageYOffset
+  var header2 = document.querySelector('.header-2')
+  var scrollPosition = window.scrollY
 
-  if (currentScrollPos > header1Height) {
-    header2.style.top = '0' // Show the second header
-    header2.classList.remove('hide-content') // Show the content
+  // Adjust this threshold as needed
+  var threshold = 15
+
+  if (scrollPosition > threshold) {
+    header2.style.display = 'block'
   } else {
-    header2.style.top = '-22vh' // Hide the second header
-    header2.classList.add('hide-content') // Hide the content
+    header2.style.display = 'none'
   }
-
-  prevScrollPos = currentScrollPos
 })
